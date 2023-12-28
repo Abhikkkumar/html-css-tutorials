@@ -1,0 +1,52 @@
+body{
+    background-color: #5886e8; 
+}
+/* display:flex, 
+flex-direction: row;  main-axis: horizontal line; transverse-axis : vertical line
+flex-direction: column; main-axis: vertical line; transverse-axis: horizontal line
+                
+*/
+
+.nav-bar{
+    display: flex; 
+    flex-direction: row;        /* decides the 'main-axis' and 'transverse-axis' */
+   justify-content: space-around; /* arrange items on 'main-axis' */
+   align-items: center;        /* arrange items on 'transverse-axis */
+
+}  
+
+/* to change color of direct child of .nav-bar */
+/* .nav-bar > a{
+    color:white;
+} */
+
+.nav-bar a{
+    color: #ddd;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Recursive', sans-serif;
+
+}
+.nav-items a{
+    /* margin-left:7px;
+    margin-right: 7px; */
+    /* margin: top right bottom left; */
+    /* margin: top-bottom left-right; */
+    margin: 0 7px;
+}
+
+.nav-bar button{
+    color: #ddd;
+    padding: 5px 5px;
+    background-color: #5886e8;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+
+.nav-bar button:hover{
+    background-color: #6281c4 ;
+    cursor: pointer;
+}

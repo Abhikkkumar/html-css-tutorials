@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--  we are linking our CSS file -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Recursive:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Simple-Landing-Page</title>
+    <style>
+      /* --------- Internal Styling ------------ */
+      /* .green-btn{
+        background-color: greenyellow;
+      } */
+
+      /* #btn-1{
+        color:white;
+        background-color: green;
+      } */
+      /* button{
+        background-color: red;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <a href="#">Landing</a>
+      <div class="nav-items">
+        <a href="https://seat-adda-abhisheks-projects-751ff662.vercel.app/"
+          >Seat Adda</a
+        >
+        <a href="https://www.google.co.in/">Google</a>
+        <a href="#">Reviews</a>
+        <a href="#">Pricing</a>
+        <a href="#">FAQs</a>
+        <button>Get Started</button>
+      </div>
+    </div>
+
+    <div class="main">
+      <!-- <hr> -->
+      <div class="welcome-text">
+        <h1>Fly makes you faster</h1>
+        <p>
+          New free template by unicookies.com. For more templates visit the
+          site. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+          excepturi tempora animi! Inventore enim optio recusandae suscipit
+          veritatis saepe eaque error doloribus dolor!
+        </p>
+        <button id="btn-1" class="green-btn blue-btn">See Pricing</button>
+      </div>
+      <!-- <hr> -->
+      <div class="form">
+        <h1>Sign Up for free</h1>
+        <!-- h1, h2, ... h6 are used to add heading in our website.
+                                            h1 is largest and h6 is smallest. -->
+
+        <input type="text" name="fullName" placeholder="Full Name" />
+        <!-- input tag is used to add input field in our website.-->
+        <br />
+        <input type="email" name="email" placeholder="Email" /><br />
+        <input type="password" name="password" placeholder="Password" /><br />
+
+        <select name="season">
+          <option value="select Season">Select Season</option>
+          <option value="Papaya">Summer</option>
+          <option value="Gobhi">Winter</option>
+          <option value="Pakoda">Rainy</option>
+          <option value="Roti">Autumn</option>
+        </select>
+        <br />
+
+        <button id="btn-2" class="blue-btn">Register</button>
+      </div>
+    </div>
+  </body>
+</html>
